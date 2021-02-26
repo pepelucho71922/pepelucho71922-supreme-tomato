@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .texto {
+          font-family: Sans-serif;
+        }
+      </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
@@ -9,7 +14,8 @@
     <header></header>
     <nav></nav>
     <main>
-        <form>
+        <div class="texto">
+        <form action="" oninput="x.value = parteInt(a.value) + parseInt(b.value)">
           <div>
             <label for="input-nombre">Data</label><br>
             <hr/>
@@ -27,19 +33,59 @@
           </div>   
           <hr/>
           <div>
-              <h4>Deporte Favorito:</h4>
+              <h4>Comidas Favoritas:</h4>
           </div>
           <div>
-              <label for="tenis">Tenis</label>
-              <input type="checkbox" id="tenis" name="deport" value="tenis">
-              <label for="basket">basket</label>
-              <input type="checkbox" id="basket" name="deport" value="basket">
-              <label for="futbol">futbol</label>
-              <input type="checkbox" id="futbol" name="deport" value="futbol">
+              <label for="comida1">Lomo Saltado</label>
+              <input type="checkbox" id="comida1" name="comida1" value="comida1">
+          </div>    
+          <div>
+            <label for="comida2">Pollo a la Brasa</label>
+            <input type="checkbox" id="comida2" name="comida2" value="comida2">
+          </div> 
+          <div>
+              <label for="comida3">Soya</label>
+              <input type="checkbox" id="comida3" name="comida3" value="comida3">
           </div>
-          <hr/>      
+          <hr/>
+          <div>
+              <label for="coches">Marcas de coches</label>
+              <select name="coches" id="coches">
+                  <option value="volvo">Volvo</option>
+                  <option value="toyota">Toyota</option>
+                  <option value="nisan">Nisan</option>
+                  <option value="ferrari">Ferrari</option>
+                  <option value="ford">Ford</option>
+              </select>
+          </div>
+          <div>
+              <label for="lenguajes">Lenguajes de programacion</label>
+              <select name="lenguajes" id="lenguajes" size="3">
+                  <option value="javascript">js</option>
+                  <option value="typescript">ts</option>
+                  <option value="c">C++</option>
+                  <option value="java">Java</option>
+              </select>
+          </div>
+          <div>
+              <textarea name="mensaje" id="mensaje" cols="30" rows="10" >Desarrollo en codiGO</textarea>
+              <button type="button" onclick="alert('Hola compañeros de codiGO')">Hazme click </button>
+          </div>
+          <br/>
+          <div>
+              <div>
+                  0
+                  <input type="range" id="a" name="a" value="50">
+                  100
+                  <input type="number" id="b" name="b" value="50">
+                  =
+                  <output name="x" for="a b"></output>
+              </div>
+          </div>
+          </div>
         </form>
     </main>
+    </div>
     <section></section>
     <aside></aside>
     <footer></footer>
