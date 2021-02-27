@@ -1,11 +1,24 @@
 p {
-    color: crimson;
-    font-weight: bold;
+    color: rgb(78, 4, 18);
+    font-size: 27px;
 }
+/*
+Esto es un comentario
+*/
 .texto {
     font-family: Sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 h1 {
-    color: coral;
+    color: rgb(0, 121, 115);
+}
+small {
+    color: white;
+}
+body {
+    background-color: black;
+}
+footer {
+    background-color: darkgrey;
 }
