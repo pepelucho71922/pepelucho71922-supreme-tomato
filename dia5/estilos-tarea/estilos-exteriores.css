@@ -13,6 +13,7 @@ h1 {
 img {
     display: block;
     margin: auto;
+    border-radius: 250px;
 }
 small {
     color: white;
@@ -33,4 +34,14 @@ footer {
     background-color: darkgrey;
     font-size: 27px;
     text-align: center;
+    color:rgb(78, 4, 18);
+}
+td {
+    color:rgb(78, 4, 18);
+    font-family: Sans-serif;
+    font-size: 32px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 20px;
+    
 }
