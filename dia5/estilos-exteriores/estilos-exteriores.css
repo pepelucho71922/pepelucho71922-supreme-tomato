@@ -19,6 +19,11 @@ small {
 body {
     background-color: black;
 }
-footer {
-    background-color: darkgrey;
+.section1 {
+    font-size: 32px;
+    color: greenyellow;
+}
+#section2 {
+    font-size: 70px;
+
 }
