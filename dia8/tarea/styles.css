@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+header {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;   
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+ol {
+    color: white;
+    text-align: center;
+    font-size: 25px;   
+    font-family: 'Akaya Telivigala', cursive;
+}
+#a {
+    color: #4A235A ;
+}
+#b {
+    color: #145A32  ;
+}
+#c {
+    color: #F1C40F  ;
+}
+#d {
+    color: #2980B9 ;
+}
+
+#music {
+    font-family: 'RocknRoll One', sans-serif;
+    color: white;
+    font-size: 35px;   
+    text-align: center  ;
+}
+#poema {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 35px;
+    text-align: center  ;
+}
+#cita1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'RocknRoll One', sans-serif;
+}
+#cita2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#cita3 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+}
+footer {
+    background-color: #581845;
+    border: 1px solid white;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+p {
+    color: white;
+}
+#w {
+    font-family: 'RocknRoll One', sans-serif;
+}
+#x {
+    font-family: 'Reggae One', cursive;
+}
+#y {
+    font-family: 'Balsamiq Sans', cursive;
+}
+#z {
+    font-family: 'Pacifico', cursive;
+}

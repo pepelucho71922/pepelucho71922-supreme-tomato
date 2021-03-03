@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+} 
+
+#primer-parrafo {
+    background-color: red;
+    opacity: 0.2;
+
+}
+
+#segundo-parrafo {
+    background-color: green;
+    opacity: 0.2;
+}
+
+#tercer-parrafo {
+    background-color: blue;
+    opacity: 0.2;
+}
+
+
+#cuarto-parrafo {
+    background-color: rgba(75, 192, 122, 0.2876554);
+}
+#contenedor {
+    height: 400px;
+    width: 350px;
+    background-image: url("https://www.tutorialspoint.com/css/images/responsive.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
