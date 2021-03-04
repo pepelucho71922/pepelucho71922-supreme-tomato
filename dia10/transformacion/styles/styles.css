@@ -1,0 +1,30 @@
+#girar {
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    transform: rotate(60deg);
+}
+#torcer {
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    transform: skewY(185deg);
+}
+#crecer {
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    transform: scaleY(1.5);
+}
