@@ -1,0 +1,24 @@
+#id {
+    background-image: linear-gradient( to bottom right, purple,white,green);
+}
+#a {
+    filter: grayscale(100%);
+    border-radius: 20%;
+    margin: auto;
+    display: block;
+    transform: rotate(180deg);
+
+}
+#b {
+    border-radius: 20%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    transform: skewY(225deg);
+}
+#c {
+    filter: blur(50px);
+    border-radius: 20%;
+    margin: auto;
+    display: block;
+}
