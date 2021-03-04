@@ -1,10 +1,10 @@
 #elemento {
     width: 100%;
     height: 100%;
-    animation: pulse 0.5s infinite;
+    animation: pulse 0.3s infinite;
 }
 img { 
-    animation: circulo 0.5s infinite;
+    animation: circulo 6s infinite;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -18,15 +18,19 @@ img {
     }
     15% {
         border-radius: 15%;
+        transform: translateX(500px);
     }
     30% {
         border-radius: 30%;
+        transform: translateY(300px);
     }
     45% {
         border-radius: 45%;
+        transform: translateX(-500px);
     }
     60% {
         border-radius: 60%;
+        transform: translateX(500px);
     }
     75% {
         border-radius: 75%;
@@ -41,7 +45,7 @@ img {
 
 @keyframes  pulse {
     0% {
-        background-color: black;
+        background-color: rgb(0, 0, 0);
     }
     25% {
         background-color: green;
