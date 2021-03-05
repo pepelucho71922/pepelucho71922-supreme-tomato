@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+#box {
+    width: 1000px;
+    height: 1000px;
+    background: purple;
+    margin: auto;
+}
+#titulo {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#personaje {
+    width: 400px;
+    height: 200;
+    border-radius: 90%;
+}
+#personaje-div {
+    border: solid green 10px;
+    margin-bottom: 30px;
+}
+#parrafo {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: solid blue 1px;
+}
+#nacimiento {
+    background-color: aquamarine;
+}
