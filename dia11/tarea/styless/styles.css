@@ -3,7 +3,7 @@ img {
     height: 200px;
     width: 200px;
     text-align: center;
-    animation: gira 10s infinite;
+    animation: gira 0.5s infinite;
 }
 
 @keyframes gira {
