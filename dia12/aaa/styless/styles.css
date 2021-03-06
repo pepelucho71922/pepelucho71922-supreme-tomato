@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+#div-1 {
+    height: 1000px;
+
+
+}
+header {
+    background-color: #bbbbbb;
+    height: 100px;
+    width: 1500px;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+img {
+    height: 800px;
+    filter: grayscale(100%);
+}
+
