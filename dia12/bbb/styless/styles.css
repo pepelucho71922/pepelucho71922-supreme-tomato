@@ -1,0 +1,28 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    background-color: #0DCC8F;
+    
+}
+header {
+    font-size: 70px;
+}
+#total {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+ 
+}
+label {
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#div-rol {
+    display: flex;
+}

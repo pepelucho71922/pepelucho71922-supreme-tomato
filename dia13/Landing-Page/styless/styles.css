@@ -1,0 +1,98 @@
+header {
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;   
+    height: 70px;
+    justify-content: space-between;
+    display: flex;
+    background: linear-gradient(90deg, rgba(37,17,51,1) 0%, rgba(253,29,29,1) 49%, rgba(255,149,0,1) 100%);
+
+}
+a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    
+}
+*{
+    margin: 0;
+}
+#logo {
+    margin 0;
+    height: 60px;
+}
+#main-container {
+    z-index: 0;
+    text-align: center;
+    background-image: url("/dia13/Landing-Page/assets/img/pexel.jpg");
+    background-size: contain;
+    height: 200vh;
+}
+#imagen-fondo {
+    width: 100%;
+    height: 100%;
+    
+}
+#name {
+    color: white;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+#perfil {
+    margin-top: 100px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+#botones {
+
+
+}
+.boton {
+    border-radius: 55%;
+    border: 4px solid white;
+    background-color: #53142E;  
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 40px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* 
+top: 140px !important;
+left: 1000px !important;
+width: 200px;
+height: 200px;
+
+top: 150px !important;
+left: 600px !important;
+
+
+top: 600px;
+left: 420px;
+right: 100px;
+top: 200px !important;
+left: 37% !important;
+
+
+
+    position: absolute;
+
+    position: relative;
+    
+    position: relative;
+
+    position: relative;
+
+ */
