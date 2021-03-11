@@ -7,13 +7,14 @@ body {
     background-color: white;
 }
 #perfil-google {
-    width: 64px;
-    height: 64px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 #puntos {
     width: 35px;
     fill: #5f6368;
+    margin-top: 3px;
 }
 .section-a {
     font-size: 12px;
@@ -25,6 +26,9 @@ header {
     right: 0;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    flex-direction: row;
+    
 }
 #contenedor-left {
     top: 0;
@@ -37,15 +41,24 @@ header {
     
 }
 nav {
-    margin-top: 2px;
+    margin-top: 9px;
     margin-left: 10px;
+    display: inline-block;
+
 }
 #rayas {
     margin-left: 5px;
+    margin-top: 7px;
 }
 .section-a {
     margin-left: 10px;
     margin-right: 20px;
+    font-weight: 600;
+    color: #70757a;
+}
+.section-b {
+    margin-left: 10px;
+    margin-right: 5px;
 }
 #contenedor-rigth {
     top: 0;
@@ -57,3 +70,24 @@ nav {
     margin-right: 15px;
 }
 /*ELEMENTOS FIJOS*/
+main {
+    text-align: center;
+}
+
+#google {
+    margin-top: 100px;
+    width: 50%;
+}
+#buscador {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 736px;
+    height: 40px;
+    margin-top: 20px;
+    display: block;
+    background: none;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid #dadce0;
+}
