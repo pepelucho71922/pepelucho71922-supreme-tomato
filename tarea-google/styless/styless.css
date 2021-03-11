@@ -1,0 +1,43 @@
+/*ELEMENTOS FIJOS*/
+* {
+    margin: 0;
+}
+body {
+    font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+    background-color: white;
+}
+#perfil-google {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+#puntos {
+    width: 35px;
+    fill: #5f6368;
+}
+.section-a {
+    font-size: 12px;
+    text-decoration: none;
+}
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#contenedor-left {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#contenedor-rigth {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+/*ELEMENTOS FIJOS*/
