@@ -1,0 +1,40 @@
+body {
+    background-color: teal;
+    text-align: center;
+}
+
+
+/*pantalla EXTRA PEQUEÑAS (celulares, hasta 600 px, es decir un ancho menor a 600 px)*/
+@media only screen and (max-width: 600px) {
+    header {
+        height: 70px;
+        background: linear-gradient(90deg, rgba(37,17,51,1) 0%, rgba(253,29,29,1) 49%, rgba(255,149,0,1) 100%);  
+    }
+}
+
+/*pantalla PEQUEÑAS (tablets, en modo portail (vertical) y telefonos grandes o pantallas mayores a 600 px )*/
+@media only screen and (min-width:600px) {
+    body {
+        background-color: violet;
+    }
+}
+
+/*pantallas del tamaño MEDIO (tables en modo landscape[horizontal], es decir, un ancho mayor  o igual a 768 px)*/
+@media only screen and (min-width:768px) {
+    body {
+        background-color: yellow;
+    }
+}
+/*pantallas GRANDES (laptops o computadores de escritorio, es decir, un ancho mayor o igual a 992 px)*/
+@media only screen and (min-width:992px) {
+    body {
+        background-color: red;
+    }
+}
+
+/*pantallas MUY GRANDES (ej. laptops gamer, monitores, es decir que tienen un ancho mayor o igual a 1200 px )*/
+@media only screen and (min-width:1200px) {
+    body {
+        background-color: black;
+    }
+}
