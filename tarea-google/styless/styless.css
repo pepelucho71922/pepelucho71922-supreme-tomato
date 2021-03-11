@@ -54,7 +54,10 @@ nav {
     margin-left: 10px;
     margin-right: 20px;
     font-weight: 600;
-    color: #70757a;
+    /*color: #70757a;*/
+    background: -webkit-linear-gradient(90deg, rgba(37,17,51,1) 0%, rgba(253,29,29,1) 49%, rgba(255,149,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .section-b {
     margin-left: 10px;
@@ -69,14 +72,24 @@ nav {
     margin-top: 10px;
     margin-right: 15px;
 }
-#lupa {
+#dentro-del-buscador {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#lupa {
     width: 20px;
     height: 20px;
     fill: #5f6368;
     align-items: center;
-    padding-left: 13px;
-    margin-top: 10px;
+}
+#microfono {
+    width: 20px;
+    height: 20px;
 }
 /*ELEMENTOS FIJOS*/
 main {
@@ -85,7 +98,7 @@ main {
 
 #google {
     margin-top: 100px;
-    width: 50%;
+    width: 20%;
 }
 #buscador {
     margin: auto;
